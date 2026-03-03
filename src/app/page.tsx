@@ -16,7 +16,7 @@ export default function Home() {
         className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[600px] w-[600px] rounded-full"
         style={{
           background:
-            "radial-gradient(circle, rgba(0,229,255,0.08) 0%, transparent 70%)",
+            "radial-gradient(circle, rgba(74,222,128,0.08) 0%, transparent 70%)",
           animation: "pulse-glow 4s ease-in-out infinite",
         }}
       />
@@ -38,7 +38,7 @@ export default function Home() {
             className="bg-clip-text text-transparent"
             style={{
               backgroundImage:
-                "linear-gradient(135deg, #00e5ff 0%, #ffffff 50%, #00e5ff 100%)",
+                "linear-gradient(135deg, #4ade80 0%, #ffffff 50%, #4ade80 100%)",
               backgroundSize: "200% auto",
               animation: "shimmer 3s linear infinite",
             }}
@@ -65,7 +65,7 @@ export default function Home() {
             href="https://gammadevelopers.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium text-[#00e5ff] transition-opacity hover:opacity-80"
+            className="font-medium text-[#4ade80] transition-opacity hover:opacity-80"
           >
             Gamma Developers
           </a>
