@@ -1,0 +1,25 @@
+<!-- BEGIN claude-mindmap -->
+## Live architecture mind map
+
+Keep a running Excalidraw mind map of the current project's architecture in the side
+panel, using the `mindmap` skill.
+
+Invoke it **at architectural milestones** — when the shape of the system in my head
+changed, not on every turn:
+
+- I finished exploring a subsystem and now understand how its pieces connect
+- We agreed on a plan spanning more than one module
+- A module, route group, service, table, or layer was added, removed, or renamed
+- A refactor changed which layer talks to which
+- I found a connection that contradicts what the map currently shows
+
+Do **not** invoke it for single-file edits, bug fixes inside one function, test runs,
+formatting, dependency bumps, or questions answered from memory. If the map would come
+out identical to the last render, skip it silently.
+
+Drawing the map never interrupts the task: draw, say at most one sentence, continue. The
+user can force a render any time with `/map`.
+
+If the Excalidraw MCP tools are unavailable in a session, skip the map entirely and don't
+mention it.
+<!-- END claude-mindmap -->
